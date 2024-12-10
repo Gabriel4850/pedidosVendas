@@ -5,7 +5,7 @@ Imports Windows.Win32.System
 
 Public Class Cadastro
     ' conexão com o banco de dados
-    Dim connectionString As String = "Server=PC-TNESCRITORIO\MSSQLSERVER02;Database=estudo;Integrated Security=True;"
+    Dim connectionString As String = "Server=NomeServidor;Database=estudo;Integrated Security=True;"
 
 
     Private Sub btnCadastrar_Click(sender As Object, e As EventArgs) Handles btnCadastrar.Click
