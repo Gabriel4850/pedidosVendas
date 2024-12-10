@@ -3,7 +3,7 @@ Imports System.Security.Cryptography
 Imports System.Text
 
 Public Class PesquisaUsuario
-    Dim connectionString As String = "Server=PC-TNESCRITORIO\MSSQLSERVER02;Database=estudo;Integrated Security=True;"
+    Dim connectionString As String = "Server=NomeServidor;Database=estudo;Integrated Security=True;"
 
     Private Sub btnExtrato_Click(sender As Object, e As EventArgs) Handles btnExtrato.Click
         Try
