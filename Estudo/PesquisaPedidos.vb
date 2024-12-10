@@ -1,7 +1,7 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class PesquisaPedidos
-    Dim connectionString As String = "Server=PC-TNESCRITORIO\MSSQLSERVER02;Database=estudo;Integrated Security=True;"
+    Dim connectionString As String = "Server=NomeServidor;Integrated Security=True;"
 
     Private Sub btnExtrato_Click(sender As Object, e As EventArgs) Handles btnExtrato.Click
         Using connection As New SqlConnection(connectionString)
