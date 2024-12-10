@@ -1,7 +1,7 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class CadastroClientes
-    Dim connectionString As String = "Server=PC-TNESCRITORIO\MSSQLSERVER02;Database=estudo;Integrated Security=True;"
+    Dim connectionString As String = "Server=NomeServidor;Database=estudo;Integrated Security=True;"
     Private Sub btnCadastrar_Click(sender As Object, e As EventArgs) Handles btnCadastrar.Click
         Using connection As New SqlConnection(connectionString)
 
