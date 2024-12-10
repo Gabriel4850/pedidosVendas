@@ -1,7 +1,7 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class PedidoDeVenda
-    Dim connectionString As String = "Server=PC-TNESCRITORIO\MSSQLSERVER02;Database=estudo;Integrated Security=True;"
+    Dim connectionString As String = "Server=NomeServidor;Database=estudo;Integrated Security=True;"
 
     ' Variável para armazenar o tipo do formulário
     Private TipoForm As String
